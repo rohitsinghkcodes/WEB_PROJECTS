@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="icon" href="image/biller_icon_1[1079].png" type="png">
+
+    <style>
+        /* .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0; */
+        /* margin-bottom: 0; */
+        /* width: 100%;
+            background-color: #343a40;
+            color: rgb(233, 227, 227);
+            text-align: center;
+        } */
+
+        .jumbotron {
+
+            /* background-color: #e9ecef;
+     */
+            background-color: #343a40;
+            margin-bottom: 0;
+
+
+        }
+    </style>
+    <title>Biller</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">biller</a>
+        <!-- <div class="text-center">
+            <span class="navbar-text">
+                click on Add more to add values.......
+            </span>
+        </div> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    </nav>
+    <div id="alert" class="text-center">
+
+    </div>
+
+
+    <div class="container" id="container">
+        <h1 class="my-3 ">Welcome to Guglani biller.......</h1>
+        <form>
+            <div class="contain">
+                <div class="form-row align-items-center " id="class1">
+                    <div class="col-sm-3 my-2">
+                        <!-- <label class="sr-only" for="inlineFormInputName">Name</label> -->
+                        <input type="number" class="form-control" id="quantity1" placeholder="Enter the quantity1">
+                    </div>
+                    <div class="col-sm-3 my-1">
+                        <!-- <label class="sr-only" for="inlineFormInputName">Name</label> -->
+                        <input type="number" class="form-control" id="rate1" placeholder="Enter the rate1">
+                    </div>
+                    <div class="col-auto my-1">
+                        <button id="btn1" class="btn btn-primary cal">cal</button>
+                    </div>
+                    <h2> <span id="1span" class="badge badge-secondary">Value</span></h2>
+                    <div class="col-auto my-1 ">
+                        <button id="plus" class="btn btn-success">ADD MORE</button>
+                    </div>
+                </div>
+                <div id="params">
+                </div>
+            </div>
+            <div id="submit" class="row">
+
+            </div>
+
+        </form>
+
+
+
+
+    </div>
+    <div class=" container my-4">
+        <div class="col-md-8">
+            <h1>Your bill will appear here.............</h1>
+            <!-- <table class="table table-hover table-dark "> -->
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">S.no</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Rate</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- <footer class="footer bg-dark">
+        <div class="container bg-dark">
+            <span class="text-white">
+
+                Designed and built with all the love in the world by the Shivam Guglani with the help of his previous
+                experience. Currently v1.0.0
+            </span>
+        </div>
+    </footer> -->
+    <!-- jumbroton -->
+    <div class="jumbotron text-white">
+        <!-- <h1 class="display-4">Hello, world!</h1> -->
+        <p> &#169; All rights reserved.Designed and built by Shivam Guglani &nbsp; <a class="text-white" target="blank"
+                href="https://www.instagram.com/shivam__guglani">
+                <i class="fa fa-instagram"> </i></a>
+            &nbsp;
+            <a class="text-white" target="blank" href="https://www.facebook.com/shivam.guglani.581">
+                <i class="fa fa-facebook-square"> </i></a>
+            &nbsp;
+            <a class="text-white" target="blank" href="https://twitter.com/Guglanishivam1?s=09">
+                <i class="fa fa-twitter"> </i></a>
+            &nbsp;
+            <a class="text-white" target="blank" href="https://github.com/shivamkcodes">
+                <i class="fa fa-github"></i></a>
+        </p>
+
+        <p class="lead"> <b> Description:</b>
+            This is an bill calculation checker application which makes the calculation part very easy in case of bills.
+        </p>
+        <p>
+            You just have to click on the add more and then enter your entries; on the right hand side, you will get
+            your product... at last just press Submit item.</p>
+        <p> That's it,
+            your entry is done and calculated as well. You can also check your bill summary in the bottom of the
+            page...</p>
+        <p> Your total is shown on the top of the page......</p>
+
+
+    </div>
+
+    <!-- <p>Designed and built with all the love in the world by the Shivam Guglani with the help of his previous
+        experience. Currently v1.0.0...</p> -->
+    <!-- <div class="footer">
+
+    </div> -->
+    <!-- <div class="card bg-dark text-white">
+        <img src="..." class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            <p class="card-text">Last updated 3 mins ago</p>
+        </div>
+    </div> -->
+    <script src="index.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
