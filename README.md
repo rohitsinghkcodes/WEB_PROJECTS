@@ -2,11 +2,17 @@
 
 # Hacktober Minor Project Contributions 2021
 
-### || FORK || PUSH CODES || OPEN PRs || CONTRIBUTE || SHARE || LEARN ||
+### || STAR || FORK || PUSH CODES || OPEN PRs || CONTRIBUTE || SHARE || LEARN ||<hr>
 
-### AIM: Learning to contribute to open source
+### STEPS TO FOLLOW>
+
+⭐ Star the repository<br>
+⭐ Fork the repository<br>
+⭐ Upload(push) your project<br>
+⭐ Open PR with relevant commits
+
 <br>
-<img align="left" src="https://cdn.dribbble.com/users/278287/screenshots/1343921/orchestrate.gif" width="450" height="380"/>
+<img align="left" src="https://cdn.dribbble.com/users/278287/screenshots/1343921/orchestrate.gif" width="450" height="420"/>
 
 ### Rules >
 
